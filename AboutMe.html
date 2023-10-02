@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML>
 
 <html>
@@ -6,18 +5,19 @@
 <head>
 
 <meta charset="UTF-8">
-<title>Home</title>
-
+<title>About Me</title>
+<!-- The following line links to my style sheet file-->
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
 <body>
-<!--content is enclosed in the wrapper ID style-->
+<!--All content is enclosed in the wrapper ID style-->
 <div id="wrapper">
 <!--The banner ID style is inside the wrapper ID style-->
 <div id="banner">
-<h1>Elijah Devadas's Portfolio</h1>
+<h1>About Me</h1>
 </div>
+
+<img src="C:\Users\Elijah\Downloads\960x0.webp" width="140" ><img src="C:\Users\Elijah\Downloads\NBA-2K23-Devin-Booker-Cover-Image.jpg" width="140" > 
 <!--left-column ID style is floated left and used for navigation-->
 <div id="left-column">
     <footer>
@@ -31,21 +31,31 @@
         </h4>
         </nav>
         </footer>
+     
+        <img src="C:\Users\Elijah\Downloads\Screenshot_20230930-163207~2.png" width="330" >
 </div>
 <!--right-column ID style is floated right and used for content-->
 
 <div id="right-column">
-    
-     <h3>Welcome to the home page of my personal portfolio</h3>
-        <p>My name is Elijah Devadas. 
-            Please click the links under the Navigation Bar to your left to learn more about me, the projects I've made, 
-            and a page where you can contact me.
-        </p>
-        <img src="C:/Users/Elijah/Downloads/Image 1.png" width="330"> 
-    
+    <article> <h3>My name is Elijah Devadas. I was born on August 12, 2003, in Toronto, Ontario. 
+        I am a second-year student at Ontario Tech University, enrolled in the Networking and IT Security program. My goal, once I graduate from this program, is to secure a job in the cybersecurity field. 
+        My hobbies include playing all types of sports and video games. My two favorite video games are FIFA 23 and NBA 2K23. 
+        If I were to describe myself, I would say I am a hardworking individual striving to be the best version of myself each and every single day.</h3>
+        <body>
+            
+            <video controls poster="C:\Users\Elijah\Pictures\Screenshot (247).png">
+                <source src="C:\Users\Elijah\Documents\FunFacts.mp4" type="video/mp4">
+                <source src="C:\Users\Elijah\Downloads\FunFacts.ogv" type="video/ogg">
+                </video>
+                
+                
+            
+        </body>
+        
     </div>
+    
 
-    <!--clear class style (removes) float-->
+    <!--The clear class style (removes) float-->
     <div class="clear"></div>
     <div id="footer">
     <h5>elijah.devadas@ontariotechu.net</h5>
@@ -55,22 +65,13 @@
     </body>
     </html>
 
-   
-   
-   
-   <style>
-@charset "UTF-8";
+    
+    
+    <style>
+        @charset "UTF-8";
 /* CSS code */
 /* The body tag style applies to all elements on the page */
 body {
-/* Using an angle in degrees */
-background: linear-gradient(45deg, #5B7CFF, #0F3EFF );
-
-/* Using an angle in radians */
-background: linear-gradient(1rad, #5B7CFF, #0F3EFF);
-
-/*Using linear gradient*/
-background: linear-gradient(to right, #2E3E80, #0F3EFF);
 background-color: #071F80;
 font-family: Verdana, Geneva, Arial, sans-serif;
 padding:0px;
@@ -111,6 +112,15 @@ height:120px;
 background-color:#5B7CFF ;
 }
 
+video {
+width: 400px;
+padding: 15px;
+margin: 15px;
+background-color:black;
+border:2px white solid;
+box-shadow: 10px 10px 5px black;
+
+}
+
 
     </style>
-

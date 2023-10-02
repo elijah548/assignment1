@@ -1,22 +1,19 @@
-
 <!DOCTYPE HTML>
-
 <html>
-
+<!--Head element content is not visible in a browser window-->
 <head>
-
 <meta charset="UTF-8">
-<title>Home</title>
-
+<title>Contact Me</title>
+<!-- The following line links to style sheet file-->
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
+<!--Content visible in the browser's window is inside the HTML element-->
 <body>
-<!--content is enclosed in the wrapper ID style-->
+<!--All content is enclosed in the wrapper ID style-->
 <div id="wrapper">
 <!--The banner ID style is inside the wrapper ID style-->
 <div id="banner">
-<h1>Elijah Devadas's Portfolio</h1>
+<h1>Please feel free to contact me and give me feedback using the contact form below.</h1>
 </div>
 <!--left-column ID style is floated left and used for navigation-->
 <div id="left-column">
@@ -31,21 +28,26 @@
         </h4>
         </nav>
         </footer>
+        
 </div>
 <!--right-column ID style is floated right and used for content-->
 
 <div id="right-column">
+    <body>
+        <form action="https://formspree.io/f/meqbpgyp" method="Post">
+        <h1>Contact Form</h1>
+        <input type="text" name="first" placeholder="First Name" required>
+        <input type="text" name="Last" placeholder="Last Name" required>
+        <input type="email" name="email" placeholder="Email Address" required>
+        <textarea rows="5" cols="60" name="message" placeholder="Enter Message" required></textarea>
+        <button type="Submit">Submit</button>
+        </form>
+    </body> 
     
-     <h3>Welcome to the home page of my personal portfolio</h3>
-        <p>My name is Elijah Devadas. 
-            Please click the links under the Navigation Bar to your left to learn more about me, the projects I've made, 
-            and a page where you can contact me.
-        </p>
-        <img src="C:/Users/Elijah/Downloads/Image 1.png" width="330"> 
     
     </div>
 
-    <!--clear class style (removes) float-->
+    <!--The clear class style (removes) float-->
     <div class="clear"></div>
     <div id="footer">
     <h5>elijah.devadas@ontariotechu.net</h5>
@@ -55,22 +57,13 @@
     </body>
     </html>
 
-   
-   
-   
-   <style>
-@charset "UTF-8";
-/* CSS code */
+    
+    
+    <style>
+        @charset "UTF-8";
+/* CSS Document */
 /* The body tag style applies to all elements on the page */
 body {
-/* Using an angle in degrees */
-background: linear-gradient(45deg, #5B7CFF, #0F3EFF );
-
-/* Using an angle in radians */
-background: linear-gradient(1rad, #5B7CFF, #0F3EFF);
-
-/*Using linear gradient*/
-background: linear-gradient(to right, #2E3E80, #0F3EFF);
 background-color: #071F80;
 font-family: Verdana, Geneva, Arial, sans-serif;
 padding:0px;
@@ -112,5 +105,24 @@ background-color:#5B7CFF ;
 }
 
 
+
+
     </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
